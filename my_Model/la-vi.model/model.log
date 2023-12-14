@@ -1,0 +1,311 @@
+[Thu, 14 Dec 2023 23:08:59 INFO] .lo * src vocab size = 12945
+[Thu, 14 Dec 2023 23:08:59 INFO] .vi * tgt vocab size = 12179
+[Thu, 14 Dec 2023 23:08:59 INFO] Building model...
+[Thu, 14 Dec 2023 23:09:01 INFO] Transformer(
+  (encoder): Encoder(
+    (embed): Embedding(12945, 512)
+    (pe): PositionalEncoder(
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (layers): ModuleList(
+      (0): EncoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (attn): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+      )
+      (1): EncoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (attn): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+      )
+      (2): EncoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (attn): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+      )
+      (3): EncoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (attn): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+      )
+      (4): EncoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (attn): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+      )
+      (5): EncoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (attn): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+      )
+    )
+    (norm): Norm()
+  )
+  (decoder): Decoder(
+    (embed): Embedding(12179, 512)
+    (pe): PositionalEncoder(
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (layers): ModuleList(
+      (0): DecoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (norm_3): Norm()
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+        (dropout_3): Dropout(p=0.1, inplace=False)
+        (attn_1): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (attn_2): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+      )
+      (1): DecoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (norm_3): Norm()
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+        (dropout_3): Dropout(p=0.1, inplace=False)
+        (attn_1): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (attn_2): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+      )
+      (2): DecoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (norm_3): Norm()
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+        (dropout_3): Dropout(p=0.1, inplace=False)
+        (attn_1): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (attn_2): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+      )
+      (3): DecoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (norm_3): Norm()
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+        (dropout_3): Dropout(p=0.1, inplace=False)
+        (attn_1): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (attn_2): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+      )
+      (4): DecoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (norm_3): Norm()
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+        (dropout_3): Dropout(p=0.1, inplace=False)
+        (attn_1): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (attn_2): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+      )
+      (5): DecoderLayer(
+        (norm_1): Norm()
+        (norm_2): Norm()
+        (norm_3): Norm()
+        (dropout_1): Dropout(p=0.1, inplace=False)
+        (dropout_2): Dropout(p=0.1, inplace=False)
+        (dropout_3): Dropout(p=0.1, inplace=False)
+        (attn_1): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (attn_2): MultiHeadAttention(
+          (q_linear): Linear(in_features=512, out_features=512, bias=True)
+          (k_linear): Linear(in_features=512, out_features=512, bias=True)
+          (v_linear): Linear(in_features=512, out_features=512, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (out): Linear(in_features=512, out_features=512, bias=True)
+        )
+        (ff): FeedForward(
+          (linear_1): Linear(in_features=512, out_features=2048, bias=True)
+          (dropout): Dropout(p=0.1, inplace=False)
+          (linear_2): Linear(in_features=2048, out_features=512, bias=True)
+        )
+      )
+    )
+    (norm): Norm()
+  )
+  (out): Linear(in_features=512, out_features=12179, bias=True)
+)
+[Thu, 14 Dec 2023 23:09:01 INFO] Encoder: 25543168
+[Thu, 14 Dec 2023 23:09:01 INFO] Decoder: 31460864
+[Thu, 14 Dec 2023 23:09:01 INFO] * Number of parameters: 57004032
+[Thu, 14 Dec 2023 23:09:01 INFO] Starting training on cuda
+[Thu, 14 Dec 2023 23:10:11 INFO] epoch: 000 - iter: 00200 - train loss: 3.2173 - time elapsed/per batch: 70.1848 0.3509
+[Thu, 14 Dec 2023 23:11:20 INFO] epoch: 000 - iter: 00400 - train loss: 2.8215 - time elapsed/per batch: 69.6786 0.3484
+[Thu, 14 Dec 2023 23:12:29 INFO] epoch: 000 - iter: 00600 - train loss: 2.6977 - time elapsed/per batch: 68.9304 0.3447
+[Thu, 14 Dec 2023 23:13:38 INFO] epoch: 000 - iter: 00800 - train loss: 2.6126 - time elapsed/per batch: 69.0731 0.3454
+[Thu, 14 Dec 2023 23:14:48 INFO] epoch: 000 - iter: 01000 - train loss: 2.5435 - time elapsed/per batch: 69.3988 0.3470
+[Thu, 14 Dec 2023 23:15:57 INFO] epoch: 000 - iter: 01200 - train loss: 2.4582 - time elapsed/per batch: 69.5156 0.3476
+[Thu, 14 Dec 2023 23:17:07 INFO] epoch: 000 - iter: 01400 - train loss: 2.4647 - time elapsed/per batch: 70.1056 0.3505
+[Thu, 14 Dec 2023 23:18:17 INFO] epoch: 000 - iter: 01600 - train loss: 2.4507 - time elapsed/per batch: 69.1158 0.3456
+[Thu, 14 Dec 2023 23:19:26 INFO] epoch: 000 - iter: 01800 - train loss: 2.4035 - time elapsed/per batch: 69.4207 0.3471
+[Thu, 14 Dec 2023 23:20:36 INFO] epoch: 000 - iter: 02000 - train loss: 2.3458 - time elapsed/per batch: 70.1490 0.3507
+[Thu, 14 Dec 2023 23:21:45 INFO] epoch: 000 - iter: 02200 - train loss: 2.3632 - time elapsed/per batch: 69.2204 0.3461
+[Thu, 14 Dec 2023 23:22:55 INFO] epoch: 000 - iter: 02400 - train loss: 2.2970 - time elapsed/per batch: 69.5357 0.3477
+[Thu, 14 Dec 2023 23:24:05 INFO] epoch: 000 - iter: 02600 - train loss: 2.2491 - time elapsed/per batch: 69.7148 0.3486
